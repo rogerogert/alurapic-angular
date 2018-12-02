@@ -7,6 +7,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Bem-vindo ao AluraPic';
-  description = 'Leão';
-  url = 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Sultan_the_Barbary_Lion.jpg/440px-Sultan_the_Barbary_Lion.jpg';
+
+  photos = [
+    {
+      url: 'http://animais.culturamix.com/blog/wp-content/gallery/animais-mais-inteligentes-do-mundo/5a-leao-africano.jpg',
+      description: 'Leão Africano'
+    },
+    {
+      url: 'https://www.sobiologia.com.br/figuras/Curiosidades/sentido_animais2.jpg',
+      description: 'Hamster'
+    }
+  ];
 }
